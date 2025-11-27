@@ -8,7 +8,7 @@ mod_linear = models.LinearModel()
 time_list = []
 displacement_list = []
 force_list = []
-with open("meting_1.csv", "r") as f:
+with open("tetrahede_eerste_meting.csv", "r") as f:
     reader = csv.reader(f)
     next(reader)
     for row in reader:
